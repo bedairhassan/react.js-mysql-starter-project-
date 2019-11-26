@@ -5,17 +5,17 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1 className="Center">Spring Boot and React Variables Sample</h1>
+      <h1 className="Center">react-mysql-help</h1>
       
       <h2>
         Help
       </h2>
 
       <ul>
-        <li>thischar values</li>
-        <li>thisboolean values</li>
-        <li>thisdecimal values</li>
-        <li>thisint values</li>
+        <li>char values</li>
+        <li>boolean values</li>
+        <li>float values</li>
+        <li>int values</li>
       </ul>
 
     </div>
