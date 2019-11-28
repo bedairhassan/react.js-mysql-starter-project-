@@ -6,7 +6,7 @@ import Column from './Column'
 
 export default function Root(props) {
 
-   const [getData, setData] = useState(['empty data'])
+  const [getData, setData] = useState(['empty data'])
   
   const [id, setid] = useState('')
   const [thisint, setthisint] = useState('')
@@ -95,6 +95,11 @@ export default function Root(props) {
   return (
 
     <>
+    <a href={'https://drive.google.com/open?id=1G3raAJoyY7_bj5M1kfPH_49swr37vAAd'} onClick={
+      ()=>{
+        alert('💣 BOM')
+      }
+    }>Here is the link, Stacy</a>
       <h6>Warning is: {Warning}</h6>
       <h1>Problems with Mapping is now fixed</h1>
       <React.Fragment>
