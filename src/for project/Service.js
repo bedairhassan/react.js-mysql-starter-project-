@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const root = 'http://localhost:8080'
-const api = `${root}/contactinfo`
+const api = `${root}/table`
 
 class Service{
 

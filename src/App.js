@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Root from './for project/Root'
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <li>float values</li>
         <li>int values</li>
       </ul>
+
+      <Root/>
 
     </div>
   );
